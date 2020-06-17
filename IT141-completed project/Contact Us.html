@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>The Jazz World</title>
+	<link rel="stylesheet" href="css\stylesheet.css">
+	<link rel="stylesheet" href="css\mediaquery.css">
+
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="About Us.html">About Us</a></li>
+				<li><a href="Musician Info.html">Gil Evans</a></li>
+				<li><a href="Recordings.html">Recordings</a></li>
+				<li><a href="Blog.html">Blog</a></li>
+				<li><a href="Contact Us.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+
+
+	<h2>Feedback</h2><br><br>
+	<center>
+		<form method = "POST" action = "mailto:ashish.shrestha@live.com">
+			
+			<div class="labelled-input">
+				<label for = "title">Title<span class="required">*</span></label>
+				<input type = "text" name="title" id = "title" required>
+			</div>
+			
+			
+			<div class="labelled-input">
+				<label for = "email">Email</label>
+				<input type="email" name = "email" id="email" required>
+			</div>
+			
+			<div class="labelled-input">
+				<label for ="date">Date</label>
+				<input type="date" name="date-today" = id="date-today" required>
+			</div>
+			
+			<div class="labelled-input">
+				<label for = "rating">Rate us!</label>
+				<select name="rating" id="rating" required>
+					<option selected disabled>Please Choose..</option>			
+					<option>Excellent</option>
+					<option>Good</option>
+					<option>Average</option>
+					<option>Below Average</option>
+					<option>Rubbish!</option>				
+				</select>
+			</div>
+			
+			<div class="labelled-input">
+				<label for ="feedback">Your feedback</label>
+				<textarea name="feedback" required></textarea>
+			</div>
+			
+			
+			<div class="labelled-input">
+				<p>Do you want to hear back from us?<p>
+				<input type="radio" name="response" id="response-yes" value = "Yes" required>
+				<label for ="response">Yes</label>
+
+				<input type="radio" name="response" id="response-no" value = "No" required>
+				<label for ="response">No</label>
+				
+			</div>	
+			
+			<input type="submit">
+		</form>
+	</center>
+</body>
+
+</html>
+
+
+
+
+
+

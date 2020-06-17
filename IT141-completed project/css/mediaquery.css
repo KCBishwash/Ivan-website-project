@@ -1,0 +1,50 @@
+@media screen and (max-width: 70em){
+	body{
+	max-width: 90%;
+	}
+	
+	nav ul{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	header{
+		width: 100%;
+		text-align: center;
+	}
+	.dropbtn{
+		padding: 0px;
+	}
+	
+	#content{
+	display: flex;
+	flex-direction: column;	
+	padding: 0px;
+	}
+	
+	main{
+	max-width: 98%;
+	padding: 0px;
+	}
+	
+	.thumbnail{
+		flex-direction: column;
+		
+	}
+	
+	
+	#menu{
+	width: 100%;
+	padding: 1px;
+	text-align: center;
+		
+	}
+	
+	footer {
+		width: 100%;
+		text-align: center;
+		
+	}
+	
+	
+}
